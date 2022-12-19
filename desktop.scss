@@ -1,0 +1,102 @@
+$RobotoBold: 'Roboto Bold';
+$Roboto: 'Roboto';
+$RobotoLight: 'Roboto Light';
+
+@mixin h1-114 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 114px;
+    line-height: 80%;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+@mixin h2-48 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+@mixin h3-36 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+@mixin h4-24 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+@mixin text-16-500 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+@mixin text-16-400 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+@mixin text-15-300 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header {
+    background: black;
+    padding: 0 220px;
+
+    .header-wrapper {
+        display: flex;
+        align-items: center;
+        .header-logo {
+            margin-right: 63px;
+        }
+    }
+    .header-nav-list {
+        display: flex;
+        gap: 58px;
+        padding: 0;
+        li {
+            list-style: none;
+            .header-nav-list-item-link {
+                text-decoration: none;
+                color: white;
+                font-family: Roboto;
+                font-weight: 300;
+            }
+        }
+    }
+}
