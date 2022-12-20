@@ -1,0 +1,142 @@
+@media screen and (max-width: 680px) {
+    .donate .donate-wrapper .donate-howto-wrapper {
+        flex-direction: column;
+        align-items: center;
+        .donate-howto-item {
+            .donate-howto-item-green-arrow-img {
+                position: relative;
+                rotate: 90deg;
+                left: 140px;
+                top: 230px;
+            }
+            &:last-child {
+                padding-top: 29px;
+            }
+        }
+        
+    }
+    .about .about-wrapper {
+        .about-text-container {
+            margin-left: 10px;
+        }
+    }
+    .about-img {
+        display: none;
+    }
+
+    .friends-wrapper {
+        padding: 0 15px;
+    }
+
+    .footer {
+        margin-top: 100px;
+        .footer-wrapper {
+            flex-direction: column-reverse;
+            justify-content: space-around;
+            .center-column {
+                align-items: flex-start;
+                .footer-nav-list {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+            .left-column {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .footer-button {
+                    margin: 25px 15px;
+                }
+                @media screen and (max-width: 515px) {
+                    flex-wrap: wrap;
+                    .left-column-socials {
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 25px;
+                    }
+                    .left-column-socials-text {
+                        display: none;
+                    }
+                }
+            }
+            .center-column {
+                .footer-nav-list {
+                    flex-direction: row;
+                    justify-content: space-around;
+                    margin: 45px auto;
+                    @media screen and (max-width: 515px) {
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+            .right-column {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                form {
+                    display: flex;
+                    flex-direction: column;
+                }
+                input {
+                    margin-bottom: 15px;
+                }
+                .footer-button {
+                    margin-left: 0;
+                }
+                .right-column-text-wrapper {
+                    margin: 0;
+                }
+                @media screen and (max-width: 515px) {
+                    flex-direction: column-reverse;
+                    .subscribe-wrapper {
+                        margin-top: 20px;
+                    }
+                    .footer-button {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .preview {
+        background: url(./../assets/img/Panda-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 187px;
+        padding-top: 50px;
+        .preview-circle {
+            width: 150px;
+            height: 150px;
+            margin-right: 50px;
+        }
+        .preview-header {
+            font-size: 34px;
+            max-width: 140px;
+            left: 30px;
+            top: 25px;
+        }
+        .preview-button {
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+        }
+    }
+    .donate {
+        .donate-wrapper {
+            padding-left: 0;
+            padding-right: 0;
+            .donate-button {
+                width: 200px;
+            }
+            .donate-text, .donate-subtext {
+                padding: 0 5px;
+            }
+             
+        }
+        
+    }
+}

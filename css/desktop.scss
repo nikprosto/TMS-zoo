@@ -111,6 +111,9 @@ body {
             display: flex;
             align-items: center;
         }
+        .header-menu-icon {
+            display: none;
+        }
     }
     .header-nav-list {
         display: flex;
@@ -181,6 +184,7 @@ body {
         max-width: 1161px;
         justify-content: space-between;
         margin: 0 auto;
+        gap: 10px;
         .about-img {
             background: url(./../assets/img/about.jpg);
             background-position: center;
@@ -207,16 +211,6 @@ body {
             }
         }
     }
-    // .about-flowers {
-    //     background: url(./assets/img/about_flower.png);
-    //     background-position: center;
-    //     background-repeat: no-repeat;
-    //     width: 293px;
-    //     height: 605px;
-    //     position: relative;
-    //     bottom: 500px;
-    //     left: 1350px;
-    // }
 }
 
 .friends-wrapper {
@@ -259,6 +253,7 @@ body {
     margin-top: 100px;
     background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
     opacity: 0.9;
+    min-height: 1004px;
     .donate-wrapper {
         padding-top: 41px;
         background: rgba(253, 253, 255, 0.52);
@@ -300,6 +295,9 @@ body {
             margin: 0 auto;
             .donate-howto-item {
                 width: 168px;
+                .donate-howto-item-green-arrow-img {
+                    display: none;
+                }
                 .donate-howto-item-img-container{
                     background: white;
                     border: 1px solid #F9804B;
@@ -338,7 +336,7 @@ body {
 .feedback-title {
     @include h3-36;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 60px;
 }
 
 .feedback-wrapper {
@@ -482,6 +480,7 @@ body {
                     line-height: 130%;
                     color: white;
                     margin: 10px 0 0;
+                    text-align: right;
                 }
             }
         }
