@@ -754,6 +754,18 @@ body {
               justify-content: center; }
       .about .about-wrapper .about-img {
         display: none; } }
+@media screen and (max-width: 878px) {
+  .feedback-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .feedback-wrapper .feedback-item {
+      width: 80%;
+      height: 130px; } }
 @media screen and (max-width: 680px) {
   .donate .donate-wrapper .donate-howto-wrapper {
     -webkit-box-orient: vertical;

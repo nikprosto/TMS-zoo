@@ -139,3 +139,14 @@
         }
     }
 }
+
+@media screen and (max-width: 878px) {
+    .feedback-wrapper {
+        flex-direction: column;
+        align-items: center;
+        .feedback-item {
+            width: 80%;
+            height: 130px;
+        }
+    }
+}
