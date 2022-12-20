@@ -17,6 +17,8 @@ html {
 body {
   max-width: 1600px;
   margin: 0 auto; }
+  body.lock {
+    overflow: hidden; }
 
 .header {
   background: black;
@@ -42,7 +44,8 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between; }
     .header .header-wrapper .header-logo {
-      margin-right: 63px; }
+      margin-right: 63px;
+      margin-left: 20px; }
     .header .header-wrapper .header-nav-wrapper {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -64,6 +67,7 @@ body {
         text-decoration: none;
         color: white;
         font-family: Roboto;
+        font-size: 16px;
         font-weight: 300;
         -webkit-transition: color 0.3s;
         transition: color 0.3s; }
@@ -708,6 +712,8 @@ body {
     margin-right: auto;
     margin-bottom: auto;
     padding: 0px; }
+    .header .header-nav-list li .header-nav-list-item-link {
+      font-size: 26px; }
 
   .preview {
     background: url(./../assets/img/Panda-tablet.jpg);

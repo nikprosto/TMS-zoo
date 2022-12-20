@@ -71,6 +71,8 @@
     margin-right: auto;
     margin-bottom: auto;
     padding: 0px; }
+    .header .header-nav-list li .header-nav-list-item-link {
+      font-size: 26px; }
 
   .preview {
     background: url(./../assets/img/Panda-tablet.jpg);

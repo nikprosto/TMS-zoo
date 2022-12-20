@@ -90,6 +90,9 @@ html {
 body {
     max-width: 1600px;
     margin: 0 auto;
+    &.lock {
+        overflow: hidden;
+    }
 }
 
 .header {
@@ -106,6 +109,7 @@ body {
         justify-content: space-between;
         .header-logo {
             margin-right: 63px;
+            margin-left: 20px;
         }
         .header-nav-wrapper {
             display: flex;
@@ -125,6 +129,7 @@ body {
                 text-decoration: none;
                 color: white;
                 font-family: Roboto;
+                font-size: 16px;
                 font-weight: 300;
                 transition: color 0.3s;
                 &:hover {
