@@ -140,7 +140,7 @@ body {
 .preview {
     max-width: 1600px;
     min-height: 700px;
-    background: url(./assets/img/Panda.jpg);
+    background: url(./../assets/img/Panda.jpg);
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 12px;
@@ -182,7 +182,7 @@ body {
         justify-content: space-between;
         margin: 0 auto;
         .about-img {
-            background: url(./assets/img/about.jpg);
+            background: url(./../assets/img/about.jpg);
             background-position: center;
             background-repeat: no-repeat;
             width: 609px;
